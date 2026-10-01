@@ -1,0 +1,60 @@
+{
+  "user_name": "Morgan",
+  "server": "Northstar Sandbox",
+  "channel": "link-review",
+  "records": [
+    {
+      "url": "https://learning.example/algebra",
+      "site_name": "Learning Lab",
+      "category": "Unclassified",
+      "platform": "Self-Hosted / Unknown",
+      "proxy_tech": "",
+      "status": "analyzed",
+      "filter_result": "allowed"
+    },
+    {
+      "url": "https://arcade.example/play",
+      "site_name": "Orbit Arcade",
+      "category": "Gaming / Arcade",
+      "platform": "Netlify",
+      "proxy_tech": "",
+      "status": "reviewed",
+      "filter_result": "blocked"
+    },
+    {
+      "url": "https://mirror.example/portal",
+      "site_name": "Orbit Arcade",
+      "category": "Proxy / Filter Bypass",
+      "platform": "Netlify",
+      "proxy_tech": "Ultraviolet",
+      "status": "analyzed",
+      "filter_result": "error"
+    },
+    {
+      "url": "https://retired.example/game",
+      "site_name": "Unreachable",
+      "category": "Error",
+      "platform": "",
+      "proxy_tech": "",
+      "status": "failed",
+      "filter_result": "dead"
+    },
+    {
+      "url": "https://new.example/resource",
+      "site_name": "",
+      "category": "",
+      "platform": "",
+      "proxy_tech": "",
+      "status": "pending",
+      "filter_result": ""
+    }
+  ],
+  "interactions": [
+    "Submit https://fresh.example/resource and show pending row",
+    "Filter Gaming / Arcade and search Orbit",
+    "Review a fictional fingerprint and propagate Orbit Arcade name",
+    "Run simulated filter test with allowed/blocked/dead/error results",
+    "Export a fictional coverage report"
+  ],
+  "implementation": "Use in-memory local state and deterministic simulated results; do not connect Discord, a relay, or the original SQLite database. Render source status labels and the six-page navigation. Keep credentials out of portfolio controls."
+}

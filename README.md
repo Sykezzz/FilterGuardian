@@ -8,7 +8,7 @@ A Windows desktop workflow for collecting shared URLs, analyzing site identity a
 2. Run `powershell -File install.ps1` from this folder. The installer asks before downloading Python dependencies and optional Playwright Chromium.
 3. Run `start.bat`. The first-run menu configures your own profile, theme, monitoring targets/channels, and optional relay or proxy test connection.
 
-The default setup enables no browser monitoring and configures no network endpoint. Back edits prior steps; Cancel saves a local draft without the relay token. Reopen setup from Settings. Saving starts no external connection. Link to Browser asks before opening a separate Chrome profile; sign in yourself. Start Brain asks before visiting pending URLs. No system proxy or certificate changes are performed. Such changes require separate explicit consent and your organization's process.
+The default setup enables no browser monitoring and configures no network endpoint. Back edits prior steps; Cancel saves a local draft without the relay token. Reopen setup from Settings. Saving starts no external connection. Link to Browser asks before opening a separate Chrome profile; sign in yourself. Start Brain asks before visiting pending URLs. No system proxy or certificate changes are performed. Such changes require separate explicit consent and your environment's process.
 
 For a manual installation: create a virtual environment, install `requirements.txt`, optionally run `python -m playwright install chromium`, then run `python main.py` from this directory.
 
